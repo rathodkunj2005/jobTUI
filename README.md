@@ -141,6 +141,9 @@ Full-screen terminal UI. Navigate with keyboard — no mouse needed.
 | `↑` / `↓` or `j` / `k` | Move through company list |
 | `Enter` | Open detail view for selected company |
 | `g` | Generate outreach (works in list or detail view) |
+| `I` | Assess latest/current resume against the selected job/company |
+| `P` | Show LinkedIn people-search links for referrals/recruiters/alumni |
+| `R` | Generate tailored resume PDF (detail view) |
 | `n` | Switch to Next Actions view |
 | `s` | Switch to Stats / Funnel view |
 | `/` | Enter filter mode (type to search by name, role, status, tier) |
@@ -155,10 +158,38 @@ Full-screen terminal UI. Navigate with keyboard — no mouse needed.
 - **LIST** — Scrollable company table with tier color-coding and status highlights
 - **DETAIL** — Full company info with all fields
 - **OUTREACH** — Generated message preview; `c` copies to clipboard
+- **FIT** — Interview-fit report from the latest/current resume against the selected posting
+- **PEOPLE** — LinkedIn search links for engineers, recruiters, alumni, and Microsoft-alumni angles
 - **NEXT** — Top 20 actionable companies + today's cadence tip
 - **STATS** — Funnel breakdown by status and tier with inline bar charts
 
 Requires a terminal ≥ 40×6. Resize handled gracefully.
+
+---
+
+### `assess` — Resume interview-fit check
+
+```bash
+# Uses newest likely resume PDF under ../ by default
+python tracker.py assess Databricks
+
+# Or pass an explicit attached/downloaded resume
+python tracker.py assess Databricks --resume /path/to/resume.pdf
+```
+
+Outputs a grounded fit report: verdict, score, matched signals, missing signals,
+evidence bullets from the resume, and concrete tailoring actions. Reports are saved under
+`data/assessments/<company>_fit.md`.
+
+### `people` — LinkedIn people-search links
+
+```bash
+python tracker.py people Databricks
+python tracker.py people Databricks --open 2   # open recruiter search
+```
+
+Builds LinkedIn people-search URLs for engineers, recruiters, alumni/shared-background,
+and Microsoft-alumni angles. It does not scrape LinkedIn or send messages automatically.
 
 ---
 
@@ -297,6 +328,8 @@ job_search/
 ├── tracker.py            # Main CLI — all commands
 ├── tui.py                # Curses TUI (launched via tracker.py tui)
 ├── seed_links.py         # Careers URL seeder (launched via tracker.py seed-links)
+├── resume_fit.py         # Resume/job interview-fit scoring + markdown reports
+├── people_finder.py      # Safe LinkedIn people-search URL builder
 ├── data.py               # Data model + CSV I/O
 ├── outreach.py           # Outreach templates + last-prompt persistence
 ├── notify.py             # Email reminder logic

@@ -18,6 +18,8 @@ import data
 import outreach as outreach_mod
 import config as cfg_module
 import job_fetcher
+import resume_fit
+import people_finder
 
 # ── Color pair IDs ────────────────────────────────────────────────────────────
 C_HEADER    = 1
@@ -163,6 +165,13 @@ class JobTUI:
         self.outreach_subject = ""
         self.outreach_company = ""
         self.outreach_type = ""
+
+        # Resume fit / people state
+        self.fit_lines: list[str] = []
+        self.fit_company = ""
+        self.people_lines: list[str] = []
+        self.people_company = ""
+        self.people_searches: list[people_finder.PeopleSearch] = []
 
         self.status_msg = ""
         self._overdue_set: set[str] = set()
@@ -359,6 +368,10 @@ class JobTUI:
             self._draw_next(content_top, W, content_h)
         elif self.view == "stats":
             self._draw_stats(content_top, W, content_h)
+        elif self.view == "fit":
+            self._draw_plain_text(content_top, W, content_h, f"Resume Fit → {self.fit_company}", self.fit_lines)
+        elif self.view == "people":
+            self._draw_plain_text(content_top, W, content_h, f"People Search → {self.people_company}", self.people_lines)
 
         self._draw_footer(H, W)
 
@@ -418,6 +431,10 @@ class JobTUI:
             self._safe_addstr(1, x + 1, f"› {self.selected.company}  [{tier_tag}  {self.selected.score}]", curses.A_BOLD)
         elif self.view == "outreach" and self.outreach_company:
             self._safe_addstr(1, x + 1, f"› {self.outreach_company} / {self.outreach_type}", curses.A_BOLD)
+        elif self.view == "fit" and self.fit_company:
+            self._safe_addstr(1, x + 1, f"› Fit / {self.fit_company}", curses.A_BOLD)
+        elif self.view == "people" and self.people_company:
+            self._safe_addstr(1, x + 1, f"› People / {self.people_company}", curses.A_BOLD)
 
     def _draw_footer(self, H: int, W: int) -> None:
         self._fill_row(H - 2)
@@ -427,9 +444,11 @@ class JobTUI:
             self._safe_addstr(H - 2, 1, self.status_msg[:W - 2], curses.color_pair(C_YELLOW) | curses.A_BOLD)
 
         key_help = {
-            "list":     "↑↓/jk  Enter:detail  A:apply-today  u:status  f:followup  a:note  e:URL  g:outreach  /:filter  1-3:tier  Tab:sort",
-            "detail":   "↑↓/jk  ]/[:prev/next  A:apply-today  u:status  f:followup  a:note  e:URL  g:outreach  b/ESC:back",
+            "list":     "↑↓/jk  Enter:detail  I:resume-fit  P:people  A:apply  u:status  g:outreach  /:filter  Tab:sort",
+            "detail":   "↑↓/jk  ]/[:prev/next  I:resume-fit  P:people  A:apply  R:tailor-resume  g:outreach  b/ESC:back",
             "outreach": "↑↓/jk  c:copy  b/ESC:back-to-detail  l:list",
+            "fit":      "↑↓/jk  b/ESC:back-to-detail  l:list",
+            "people":   "1-4:open LinkedIn search  ↑↓/jk  b/ESC:back-to-detail  l:list",
             "next":     "↑↓/jk  b/l:list  s:stats",
             "stats":    "↑↓/jk  b/l:list  n:next",
         }.get(self.view, "q:quit")
@@ -623,7 +642,7 @@ class JobTUI:
             lines += [("sep", sep), ("notes", app.notes)]
         lines += [
             ("sep",  sep),
-            ("hint", "A:apply-today  u:status  f:followup  a:note  g:outreach  e:URL  ]/[:next/prev  b/ESC:back"),
+            ("hint", "I:resume-fit  P:people  A:apply-today  u:status  f:followup  a:note  g:outreach  e:URL  ]/[:next/prev  b/ESC:back"),
         ]
 
         for rel, item in enumerate(lines[self.content_scroll: self.content_scroll + content_h]):
@@ -712,6 +731,26 @@ class JobTUI:
 
         end = min(self.content_scroll + avail, total)
         ind = f" {self.content_scroll + 1}–{end}/{total}  c:copy "
+        self._safe_addstr(top + 1, max(0, W - len(ind) - 1), ind, curses.A_DIM)
+
+    # ── Plain text views (fit / people) ───────────────────────────────────────
+    def _draw_plain_text(self, top: int, W: int, content_h: int, title: str, lines: list[str]) -> None:
+        self._safe_addstr(top, 0, f"  {title}", curses.color_pair(C_GREEN) | curses.A_BOLD)
+        self._safe_addstr(top + 1, 0, "─" * (W - 1), curses.A_DIM)
+        avail = content_h - 2
+        total = len(lines)
+        for rel, line in enumerate(lines[self.content_scroll: self.content_scroll + avail]):
+            y = top + 2 + rel
+            attr = 0
+            if line.startswith("#") or line.startswith("##"):
+                attr = curses.A_BOLD
+            elif line.startswith("- Missing") or "risk" in line.lower():
+                attr = curses.color_pair(C_YELLOW)
+            elif line.startswith("http") or "linkedin.com" in line:
+                attr = curses.A_UNDERLINE | curses.color_pair(C_TIER1)
+            self._safe_addstr(y, 0, line[:W - 1], attr)
+        end = min(self.content_scroll + avail, total)
+        ind = f" {self.content_scroll + 1}–{end}/{total} " if total else " 0/0 "
         self._safe_addstr(top + 1, max(0, W - len(ind) - 1), ind, curses.A_DIM)
 
     # ── NEXT view ────────────────────────────────────────────────────────────
@@ -877,6 +916,9 @@ class JobTUI:
             "    a                append note",
             "    e                open Job URL in browser",
             "    g                generate outreach message",
+            "    I                assess latest/current resume vs job",
+            "    P                show LinkedIn people-search links",
+            "    R                generate personalized resume PDF",
             "    r                reload data from CSV",
             "  ",
             "  Outreach (type picker)",
@@ -1096,7 +1138,9 @@ class JobTUI:
             return self._key_detail(key)
         if self.view == "outreach":
             return self._key_outreach(key)
-        if self.view in ("next", "stats"):
+        if self.view == "people":
+            return self._key_people(key)
+        if self.view in ("next", "stats", "fit"):
             return self._key_scroll(key)
         return True
 
@@ -1152,6 +1196,14 @@ class JobTUI:
             if self.visible:
                 self.selected = self.visible[self.cursor]
                 self._start_generate()
+        elif key == ord("I"):
+            if self.visible:
+                self.selected = self.visible[self.cursor]
+                self._start_fit_assessment()
+        elif key == ord("P"):
+            if self.visible:
+                self.selected = self.visible[self.cursor]
+                self._show_people_searches()
         elif key == ord("u"):
             if self.visible:
                 app = self.visible[self.cursor]
@@ -1227,6 +1279,10 @@ class JobTUI:
                 self._apply_today(self.selected)
         elif key == ord("g"):
             self._start_generate()
+        elif key == ord("I"):
+            self._start_fit_assessment()
+        elif key == ord("P"):
+            self._show_people_searches()
         elif key == ord("u"):
             if self.selected:
                 self._status_modal(self.selected)
@@ -1243,6 +1299,8 @@ class JobTUI:
             if self.selected:
                 self.selected = data.find(self.apps, self.selected.company)
             self.status_msg = "Reloaded."
+        elif key == ord("R"):
+            self._start_resume_gen()
         return True
 
     def _key_outreach(self, key: int) -> bool:
@@ -1258,6 +1316,22 @@ class JobTUI:
             self.content_scroll = 0
         elif key == ord("c"):
             self._copy_outreach()
+        return True
+
+    def _key_people(self, key: int) -> bool:
+        if key in (ord("1"), ord("2"), ord("3"), ord("4")):
+            idx = int(chr(key)) - 1
+            if 0 <= idx < len(self.people_searches):
+                subprocess.run(["open", self.people_searches[idx].url], check=False, capture_output=True)
+                self.status_msg = f"Opened LinkedIn search: {self.people_searches[idx].label}"
+        elif key in (27, ord("b")):
+            self.view = "detail"
+            self.content_scroll = 0
+        elif key == ord("l"):
+            self.view = "list"
+            self.content_scroll = 0
+        else:
+            return self._key_scroll(key)
         return True
 
     def _key_scroll(self, key: int) -> bool:
@@ -1339,6 +1413,56 @@ class JobTUI:
             except (FileNotFoundError, subprocess.CalledProcessError):
                 continue
         self.status_msg = "Copy failed — no pbcopy/xclip/xsel found."
+
+    def _start_resume_gen(self) -> None:
+        if not self.selected:
+            return
+        app = self.selected
+        self.status_msg = f"Generating resume for {app.company}…"
+        t = threading.Thread(target=self._resume_gen_bg, args=(app,), daemon=True)
+        t.start()
+
+    def _resume_gen_bg(self, app) -> None:
+        import resume_gen
+        try:
+            pdf_path = resume_gen.generate_resume(app, self.cfg)
+            self.status_msg = f"Resume saved: {pdf_path.name}  (opening…)"
+            resume_gen.open_pdf(pdf_path)
+        except Exception as exc:
+            self.status_msg = f"Resume error: {exc}"
+
+    def _start_fit_assessment(self) -> None:
+        if not self.selected:
+            return
+        app = self.selected
+        self.status_msg = f"Assessing latest resume for {app.company}…"
+        t = threading.Thread(target=self._fit_assessment_bg, args=(app,), daemon=True)
+        t.start()
+
+    def _fit_assessment_bg(self, app) -> None:
+        try:
+            report = resume_fit.assess_resume_for_app(app)
+            out = resume_fit.save_report(report)
+            self.fit_company = app.company
+            self.fit_lines = report.to_markdown().splitlines()
+            self.content_scroll = 0
+            self.view = "fit"
+            self.status_msg = f"Fit report saved: {out.name}"
+        except Exception as exc:
+            self.status_msg = f"Fit error: {exc}"
+
+    def _show_people_searches(self) -> None:
+        if not self.selected:
+            return
+        app = self.selected
+        self.people_searches = people_finder.build_searches(app)
+        self.people_company = app.company
+        self.people_lines = people_finder.format_searches(app).splitlines()
+        self.people_lines.append("")
+        self.people_lines.append("Press 1-4 to open a search in LinkedIn. No scraping or auto-messaging.")
+        self.content_scroll = 0
+        self.view = "people"
+        self.status_msg = "People search ready."
 
     def _open_url(self) -> None:
         app = self.selected

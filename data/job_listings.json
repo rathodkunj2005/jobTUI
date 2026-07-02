@@ -1,408 +1,20 @@
 {
-  "fetched_at": "2026-04-22T13:16:37.298213",
+  "fetched_at": "2026-07-01T22:42:34.357513",
   "companies": {
-    "Databricks": {
-      "listings": [
-        {
-          "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8335860002",
-          "team": "",
-          "location": "United States",
-          "source": "greenhouse"
-        },
-        {
-          "title": "AI Engineer - FDE (Forward Deployed Engineer)",
-          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002",
-          "team": "",
-          "location": "Remote - India",
-          "source": "greenhouse"
-        },
-        {
-          "title": "AI Engineer - FDE (Forward Deployed Engineer) - U.S. Federal Sector",
-          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8415203002",
-          "team": "",
-          "location": "Maryland; Virginia; Washington, D.C.",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer - GenAI inference ",
-          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8202670002",
-          "team": "",
-          "location": "San Francisco, California",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Sr Software Engineer- Customer Experience Intelligence (CXI)",
-          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8416951002",
-          "team": "",
-          "location": "Mountain View, California; San Francisco, California",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Sr Software Engineer-Networking",
-          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211452002",
-          "team": "",
-          "location": "Mountain View, California",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Sr Software Engineer-Networking",
-          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211450002",
-          "team": "",
-          "location": "Bellevue, Washington",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Systems PhD - Software Engineer ",
-          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
-          "team": "",
-          "location": "Mountain View, California; San Francisco, California",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Systems PhD - Software Engineer ",
-          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002",
-          "team": "",
-          "location": "Bellevue, Washington; Seattle, Washington",
-          "source": "greenhouse"
-        }
-      ],
-      "ats": "greenhouse",
-      "slug": "databricks",
-      "error": null
-    },
-    "Microsoft (Azure AI / Foundry / Data / Copilot)": {
-      "listings": [],
-      "ats": null,
-      "slug": null,
-      "error": "not found"
-    },
-    "NVIDIA": {
-      "listings": [],
-      "ats": null,
-      "slug": null,
-      "error": "not found"
-    },
-    "Snowflake": {
-      "listings": [],
-      "ats": null,
-      "slug": null,
-      "error": "not found"
-    },
-    "Cloudflare": {
-      "listings": [
-        {
-          "title": "Business Development Representative - Danish, Norwegian or Swedish Speaking",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7657028?gh_jid=7657028",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Distributed Systems Engineer - Data Platform - Analytical Database Platform",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/4886734?gh_jid=4886734",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Distributed Systems Engineer - Data Platform - Analytics and Alerts",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7462803?gh_jid=7462803",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Distributed Systems Engineer - Data Platform - Analytics and Alerts",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7340474?gh_jid=7340474",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Distributed Systems Engineer - Data Platform (Delivery, Database, Retrieval)",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7462801?gh_jid=7462801",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Distributed Systems Engineer - Data Platform (Delivery, Database, Retrieval)",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7267602?gh_jid=7267602",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Distributed Systems Engineer - Data Platform - Logs and Audit Logs",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7340469?gh_jid=7340469",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Forward Deployed Engineer",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7778849?gh_jid=7778849",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Forward Deployed Engineer",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7778816?gh_jid=7778816",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Forward Deployed Engineer",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7728103?gh_jid=7728103",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Forward Deployed Engineer",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7731685?gh_jid=7731685",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Forward Deployed Engineer",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7731593?gh_jid=7731593",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Forward Deployed Engineer",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7731626?gh_jid=7731626",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Frontend Software Engineer - Cloudforce One",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7563764?gh_jid=7563764",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Cloudforce One",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer: Distributed Systems (Infrastructure)",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7088208?gh_jid=7088208",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Enterprise Integrations",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7336735?gh_jid=7336735",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Global Resource Management",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7340134?gh_jid=7340134",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Growth ",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/6885717?gh_jid=6885717",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Identity Access Management",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/6621615?gh_jid=6621615",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer - Load Balancing ",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7404432?gh_jid=7404432",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Network Performance & Reliability",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7446310?gh_jid=7446310",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer - Registrar  ",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7495224?gh_jid=7495224",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer- Resiliency",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7748727?gh_jid=7748727",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer- Resiliency",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/6980179?gh_jid=6980179",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer: Resiliency - Deploy at Scale",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7302931?gh_jid=7302931",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer - Security Platform",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7053411?gh_jid=7053411",
-          "team": "",
-          "location": "Distributed; Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Service Automation (Kubernetes)",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7066923?gh_jid=7066923",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer - Traffic Management ",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7469429?gh_jid=7469429",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer - Traffic Management ",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7477711?gh_jid=7477711",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Workers Builds & Automation",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/5733639?gh_jid=5733639",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Workers Deploy & Config",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7377424?gh_jid=7377424",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Systems Engineer, Data",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7527453?gh_jid=7527453",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Systems Engineer, MAPS",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7742773?gh_jid=7742773",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Systems Engineer, Metrics and Alerting",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/6673579?gh_jid=6673579",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Systems Engineer, SSL/TLS Team",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7542754?gh_jid=7542754",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Systems Engineer, Workers Authoring and Testing",
-          "url": "https://boards.greenhouse.io/cloudflare/jobs/7104011?gh_jid=7104011",
-          "team": "",
-          "location": "Hybrid",
-          "source": "greenhouse"
-        }
-      ],
-      "ats": "greenhouse",
-      "slug": "cloudflare",
-      "error": null
-    },
-    "Meta": {
-      "listings": [],
-      "ats": null,
-      "slug": null,
-      "error": "not found"
-    },
     "Anthropic": {
       "listings": [
-        {
-          "title": "Applied AI Engineer, Beneficial Deployments",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5068226008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Applied AI Engineer (Digital Natives Business) ",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5057647008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Applied AI Engineer, Life Sciences (Beneficial Deployments)",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5111942008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Applied AI Engineer (Startups)",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5073277008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY",
-          "source": "greenhouse"
-        },
         {
           "title": "Biological Safety Research Scientist",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/5066977008",
           "team": "",
-          "location": "San Francisco, CA | New York City, NY",
+          "location": "San Francisco, CA",
           "source": "greenhouse"
         },
         {
-          "title": "[Expression of Interest] Research Scientist / Engineer, Honesty",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4532887008",
+          "title": "Data Engineer",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4956672008",
           "team": "",
-          "location": "New York City, NY; San Francisco, CA",
+          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
           "source": "greenhouse"
         },
         {
@@ -413,20 +25,6 @@
           "source": "greenhouse"
         },
         {
-          "title": "Forward Deployed Engineer, Applied AI",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4985877008",
-          "team": "",
-          "location": "Boston, MA; Chicago, IL; New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY; Washington, DC",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Forward Deployed Engineer, Applied AI (Federal Civilian) ",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5079562008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY | Washington, DC",
-          "source": "greenhouse"
-        },
-        {
           "title": "Full-Stack Software Engineer, Reinforcement Learning",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/5186067008",
           "team": "",
@@ -434,45 +32,10 @@
           "source": "greenhouse"
         },
         {
-          "title": "Infrastructure Engineer, Sandboxing",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5030680008",
+          "title": "IT Systems Engineer, Client Platform Engineer",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5255853008",
           "team": "",
-          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "IT Systems Engineer, Corporate Systems & Infrastructure",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4887952008",
-          "team": "",
-          "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "IT Systems Engineer, Enterprise SaaS",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5161882008",
-          "team": "",
-          "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Machine Learning Systems Engineer, Research Tools",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4952079008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Machine Learning Systems Engineer, RL Engineering",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4952051008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "ML Infrastructure Engineer, Safeguards",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4778843008",
-          "team": "",
-          "location": "San Francisco, CA",
+          "location": "Boston, MA; New York City, NY; Remote-Friendly (Travel-Required) |  Washington, DC",
           "source": "greenhouse"
         },
         {
@@ -483,42 +46,42 @@
           "source": "greenhouse"
         },
         {
-          "title": "Model Quality Software Engineer, Claude Code",
+          "title": "Model Performance Software Engineer, Claude Code",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/5098025008",
           "team": "",
           "location": "San Francisco, CA | New York City, NY",
           "source": "greenhouse"
         },
         {
-          "title": "Offensive Security Research Engineer, Safeguards",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5123011008",
+          "title": "[P] Data Engineer, Safeguards",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5240422008",
           "team": "",
-          "location": "San Francisco, CA",
+          "location": "San Francisco, CA | New York City, NY",
           "source": "greenhouse"
         },
         {
-          "title": "Privacy Research Engineer, Safeguards",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4949108008",
+          "title": "People Research Scientist, Recruiting",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5257763008",
           "team": "",
-          "location": "San Francisco, CA",
+          "location": "New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY",
           "source": "greenhouse"
         },
         {
-          "title": "Research Engineer, Agents",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4017544008",
+          "title": "Research Engineer, Code RL (Reinforcement Learning)",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5254364008",
           "team": "",
-          "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
+          "location": "San Francisco, CA | New York City, NY",
           "source": "greenhouse"
         },
         {
-          "title": "Research Engineer, AI Observability",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5125083008",
+          "title": "Research Engineer, Computer Use",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5285246008",
           "team": "",
-          "location": "San Francisco, CA",
+          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
           "source": "greenhouse"
         },
         {
-          "title": "Research Engineer, Cybersecurity Reinforcement Learning",
+          "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/5025624008",
           "team": "",
           "location": "San Francisco, CA | New York City, NY",
@@ -532,22 +95,15 @@
           "source": "greenhouse"
         },
         {
-          "title": "Research Engineer, Economic Research",
+          "title": "Research Engineer, Domain Scaling",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5271380008",
+          "team": "",
+          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Engineer, Economic Research Data Platform",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/5071132008",
-          "team": "",
-          "location": "San Francisco, CA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Research Engineer, Environment Scaling",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4951064008",
-          "team": "",
-          "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Research Engineer,  Frontier Red Team (Autonomy)",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5067100008",
           "team": "",
           "location": "San Francisco, CA",
           "source": "greenhouse"
@@ -560,6 +116,20 @@
           "source": "greenhouse"
         },
         {
+          "title": "Research Engineer, Knowledge Foundations",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5197337008",
+          "team": "",
+          "location": "San Francisco, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Engineer, Knowledge Team",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4017331008",
+          "team": "",
+          "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
+          "source": "greenhouse"
+        },
+        {
           "title": "Research Engineer, Machine Learning (Reinforcement Learning) ",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/4613568008",
           "team": "",
@@ -567,7 +137,14 @@
           "source": "greenhouse"
         },
         {
-          "title": "Research Engineer, Performance RL",
+          "title": "Research Engineer, Machine Learning (RL Velocity)",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198108008",
+          "team": "",
+          "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Engineer, Performance RL (Reinforcement Learning) ",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/5160330008",
           "team": "",
           "location": "San Francisco, CA",
@@ -609,21 +186,21 @@
           "source": "greenhouse"
         },
         {
-          "title": "Research Engineer / Research Scientist, Vision",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5074217008",
+          "title": "Research Engineer, Rule of Law",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5278065008",
           "team": "",
-          "location": "New York City, NY; San Francisco, CA; Seattle, WA",
+          "location": "San Francisco, CA",
           "source": "greenhouse"
         },
         {
-          "title": "Research Engineer, Reward Models Platform",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5024831008",
+          "title": "Research Engineer, Safeguards Labs",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5191785008",
           "team": "",
-          "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
+          "location": "San Francisco, CA | New York City, NY",
           "source": "greenhouse"
         },
         {
-          "title": "Research Engineer / Scientist, Alignment Science",
+          "title": "Research Engineer / Scientist, Alignment",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/4631822008",
           "team": "",
           "location": "San Francisco, CA",
@@ -637,13 +214,6 @@
           "source": "greenhouse"
         },
         {
-          "title": "Research Engineer / Scientist, Societal Impacts",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5076606008",
-          "team": "",
-          "location": "San Francisco, CA",
-          "source": "greenhouse"
-        },
-        {
           "title": "Research Engineer, Universes",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/5061517008",
           "team": "",
@@ -651,17 +221,10 @@
           "source": "greenhouse"
         },
         {
-          "title": "Research Engineer, Virtual Collaborator (Cowork)",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4946308008",
+          "title": "Research Engineer, Visual Knowledge Work",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5074217008",
           "team": "",
           "location": "New York City, NY; San Francisco, CA; Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Research Scientist, Frontier Red Team (Emerging Risks)",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5103788008",
-          "team": "",
-          "location": "San Francisco, CA",
           "source": "greenhouse"
         },
         {
@@ -672,8 +235,8 @@
           "source": "greenhouse"
         },
         {
-          "title": "Research Scientist, Societal Impacts",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5076616008",
+          "title": "Research Scientist, Life Sciences",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5239733008",
           "team": "",
           "location": "San Francisco, CA",
           "source": "greenhouse"
@@ -686,52 +249,10 @@
           "source": "greenhouse"
         },
         {
-          "title": "Software Engineer, Account Abuse",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5123039008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Android",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4899511008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Cloud Inference Safeguards",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5168829008",
-          "team": "",
-          "location": "San Francisco, CA | Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Compute Efficiency",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5108982008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY",
-          "source": "greenhouse"
-        },
-        {
           "title": "Software Engineer, Cybersecurity Products",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/5063007008",
           "team": "",
           "location": "San Francisco, CA | New York City, NY | Seattle, WA; Washington, DC",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Desktop",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4980420008",
-          "team": "",
-          "location": "San Francisco, CA | Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Full-stack",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174743008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
           "source": "greenhouse"
         },
         {
@@ -742,31 +263,10 @@
           "source": "greenhouse"
         },
         {
-          "title": "Software Engineer, Inference Deployment",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5111745008",
+          "title": "Software Engineer, RL Data",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5238606008",
           "team": "",
-          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, iOS",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4572744008",
-          "team": "",
-          "location": "San Francisco, CA, New York City, NY, Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Platform",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5157844008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Research Data Platform",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5191226008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY",
+          "location": "London, UK; San Francisco, CA | New York City, NY",
           "source": "greenhouse"
         },
         {
@@ -777,31 +277,10 @@
           "source": "greenhouse"
         },
         {
-          "title": "Software Engineer, Sandboxing",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5083039008",
+          "title": "Software Engineer, Safeguards Evals ",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5251671008",
           "team": "",
           "location": "San Francisco, CA | New York City, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Sandboxing (Systems)",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5025591008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, UI Platform",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/4673416008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "UI Software Engineer, Claude.ai Consumer Product ",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5026097008",
-          "team": "",
-          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
           "source": "greenhouse"
         }
       ],
@@ -809,43 +288,616 @@
       "slug": "anthropic",
       "error": null
     },
-    "Datadog": {
+    "Databricks": {
       "listings": [
         {
-          "title": "AI Research Engineer \u2013 Datadog AI Research (DAIR)",
-          "url": "https://careers.datadoghq.com/detail/7183013/?gh_jid=7183013",
+          "title": "AI Engineer - FDE (Forward Deployed Engineer)",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8099751002",
           "team": "",
-          "location": "New York, New York, USA",
+          "location": "Remote - India",
           "source": "greenhouse"
         },
         {
-          "title": "AI Research Scientist \u2013 Datadog AI Research (DAIR)",
-          "url": "https://careers.datadoghq.com/detail/6572669/?gh_jid=6572669",
+          "title": "Forward Deployed Engineer - FDE (Fullstack) - Digital Native Business ",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8488399002",
           "team": "",
-          "location": "New York, New York, USA",
+          "location": "United States",
           "source": "greenhouse"
         },
         {
-          "title": "Enablement Systems Engineer",
-          "url": "https://careers.datadoghq.com/detail/7538717/?gh_jid=7538717",
+          "title": "Software Engineer - GenAI inference ",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8202670002",
           "team": "",
-          "location": "New York, New York, USA",
+          "location": "San Francisco, California",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Web Products",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8560779002",
+          "team": "",
+          "location": "Mountain View, California",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Sr Forward Deployed Engineer",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8362737002",
+          "team": "",
+          "location": "Remote - India",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Sr Software Engineer, Agentic Applications",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8220814002",
+          "team": "",
+          "location": "Mountain View, California",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Sr Software Engineer- Customer Experience Intelligence (CXI)",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8416951002",
+          "team": "",
+          "location": "Mountain View, California; San Francisco, California",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Sr Software Engineer, Infrastructure",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8493170002",
+          "team": "",
+          "location": "San Francisco, California",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Sr Software Engineer-Networking",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211450002",
+          "team": "",
+          "location": "Bellevue, Washington",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Sr Software Engineer-Networking",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8211452002",
+          "team": "",
+          "location": "Mountain View, California",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Systems PhD - Software Engineer ",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002",
+          "team": "",
+          "location": "Bellevue, Washington; Seattle, Washington",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Systems PhD - Software Engineer ",
+          "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
+          "team": "",
+          "location": "Mountain View, California; San Francisco, California",
           "source": "greenhouse"
         }
       ],
       "ats": "greenhouse",
-      "slug": "datadog",
+      "slug": "databricks",
+      "error": null
+    },
+    "Google": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Microsoft (Azure AI / Foundry / Data / Copilot)": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Meta": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "OpenAI": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "NVIDIA": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Snowflake": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Amazon (AWS AI / Bedrock / SageMaker / AGI)": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Cloudflare": {
+      "listings": [
+        {
+          "title": "Business Development Representative - Danish, Norwegian or Swedish Speaking",
+          "url": "https://boards.greenhouse.io/cloudflare/jobs/7657028?gh_jid=7657028",
+          "team": "",
+          "location": "Hybrid",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Forward Deployed Engineer",
+          "url": "https://boards.greenhouse.io/cloudflare/jobs/7778796?gh_jid=7778796",
+          "team": "",
+          "location": "Hybrid",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Forward Deployed Engineer (FDE)",
+          "url": "https://boards.greenhouse.io/cloudflare/jobs/7572075?gh_jid=7572075",
+          "team": "",
+          "location": "Hybrid",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Network Performance & Reliability",
+          "url": "https://boards.greenhouse.io/cloudflare/jobs/7446310?gh_jid=7446310",
+          "team": "",
+          "location": "Hybrid",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Systems Engineer, MAPS",
+          "url": "https://boards.greenhouse.io/cloudflare/jobs/7742773?gh_jid=7742773",
+          "team": "",
+          "location": "Hybrid",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Threat Intelligence Software Engineer, Cloudforce One",
+          "url": "https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174",
+          "team": "",
+          "location": "Hybrid",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "cloudflare",
+      "error": null
+    },
+    "Apple (ML Platform / Siri / AI infra)": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Palantir": {
+      "listings": [
+        {
+          "title": "Backend Software Engineer - Application Development",
+          "url": "https://jobs.lever.co/palantir/ab7e3425-81d5-4705-a7b5-cd60c8a45cdb",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Backend Software Engineer - Defense",
+          "url": "https://jobs.lever.co/palantir/1345438c-ebfc-4fa5-b545-30c1414f317c",
+          "team": "Dev",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Backend Software Engineer - Defense",
+          "url": "https://jobs.lever.co/palantir/a8174f9c-6f46-46b4-8e15-d1ff9e37c9eb",
+          "team": "Dev",
+          "location": "Palo Alto, CA",
+          "source": "lever"
+        },
+        {
+          "title": "Backend Software Engineer - Defense",
+          "url": "https://jobs.lever.co/palantir/d33e0c31-ac7e-4f57-ba74-36f2df6ae2f5",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Backend Software Engineer - Infrastructure",
+          "url": "https://jobs.lever.co/palantir/6fe5515f-f677-4d98-8ac2-1775a425f5e7",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Backend Software Engineer - Infrastructure, Foundations",
+          "url": "https://jobs.lever.co/palantir/fb2d3222-dbd8-4e03-8d39-47b820e9509c",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Deployment Strategist, New Grad - Intel, US Government",
+          "url": "https://jobs.lever.co/palantir/5d8286d6-992a-404b-94af-99c173d40299",
+          "team": "Echo",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed AI Engineer",
+          "url": "https://jobs.lever.co/palantir/636fc05c-d348-4a06-be51-597cb9e07488",
+          "team": "Delta",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Engineer - Mixed Reality",
+          "url": "https://jobs.lever.co/palantir/96a0ce26-cf84-4fa8-934b-acc4363620b2",
+          "team": "Product Development",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Infrastructure Engineer - US Government",
+          "url": "https://jobs.lever.co/palantir/74748e0e-a0bc-4c53-a636-ef14e36d9b5e",
+          "team": "Delta",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Infrastructure Engineer - US Government",
+          "url": "https://jobs.lever.co/palantir/b57f08e9-546c-4b9b-8d21-db0ebbc11363",
+          "team": "Delta",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer",
+          "url": "https://jobs.lever.co/palantir/dab396d4-2f14-4796-aac0-0d82883dccf0",
+          "team": "Delta",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer  - Edge Autonomous Systems",
+          "url": "https://jobs.lever.co/palantir/27bf5707-96fa-460e-8a5b-53bc192ca87b",
+          "team": "Product Development",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - Autonomous Systems C2",
+          "url": "https://jobs.lever.co/palantir/0edf7365-49f0-4263-818a-19409ec4f430",
+          "team": "Product Development",
+          "location": "Seattle, WA",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - Autonomous Systems C2",
+          "url": "https://jobs.lever.co/palantir/c62264f5-5da8-40fe-9b44-f7f0f0012e11",
+          "team": "Product Development",
+          "location": "Palo Alto, CA",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - Intel",
+          "url": "https://jobs.lever.co/palantir/34b3a697-6e22-4751-befd-0b7921abbd5f",
+          "team": "Delta",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - Japan Forward Deployed",
+          "url": "https://jobs.lever.co/palantir/8aba5995-653d-4805-96e8-24488e6abf37",
+          "team": "Delta",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - Korea Forward Deployed",
+          "url": "https://jobs.lever.co/palantir/a39bf84c-6648-4871-bd07-9b882d401c4c",
+          "team": "Delta",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - Tactical Edge",
+          "url": "https://jobs.lever.co/palantir/3d0d9d92-0321-4459-a17d-fa1a76636a43",
+          "team": "Delta",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - US Government",
+          "url": "https://jobs.lever.co/palantir/289ad049-7b4e-41e3-8a39-146fbeb6fb64",
+          "team": "Delta",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - US Government",
+          "url": "https://jobs.lever.co/palantir/e82b696e-a085-4bbf-8bcb-6d2c4f8cf2f7",
+          "team": "Delta",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - US Government - Federal Health and Civilian",
+          "url": "https://jobs.lever.co/palantir/be4ab5cb-9caa-4c2a-97b9-c73805fca4fc",
+          "team": "Delta",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - US Government - Federal Health and Civilian",
+          "url": "https://jobs.lever.co/palantir/e7100322-be11-40c8-9dba-7a21b7302c08",
+          "team": "Delta",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer - Warp Speed",
+          "url": "https://jobs.lever.co/palantir/13f99633-43b5-4459-8e84-25073f257c18",
+          "team": "Delta",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer, New Grad - Commercial",
+          "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
+          "team": "Delta",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer, New Grad - Commercial",
+          "url": "https://jobs.lever.co/palantir/e500bcf3-19d8-4d3c-b340-4d76e4a55b40",
+          "team": "Delta",
+          "location": "Chicago, IL",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer, New Grad - Intel, US Government",
+          "url": "https://jobs.lever.co/palantir/fbca0358-083a-4222-bdbb-3bd729b48382",
+          "team": "Delta",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer, New Grad - US Government",
+          "url": "https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb",
+          "team": "Delta",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Forward Deployed Software Engineer, New Grad - US Government",
+          "url": "https://jobs.lever.co/palantir/d1ac83d0-e923-42a5-8e6d-58dd0cab25ca",
+          "team": "Delta",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Full Stack Software Engineer - Application Development",
+          "url": "https://jobs.lever.co/palantir/2da4be12-bc7a-4950-87db-e9d68d955ff7",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Privacy & Civil Liberties Engineer - New Grad",
+          "url": "https://jobs.lever.co/palantir/95e0d2b0-437a-4096-a5c6-0f247f426c90",
+          "team": "Engineering",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Apollo Platform",
+          "url": "https://jobs.lever.co/palantir/8f308f3e-43d2-49c9-accd-cc7af0f1565c",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Apollo Platform",
+          "url": "https://jobs.lever.co/palantir/afea07a8-2721-45e6-a9ca-6580f3f9783c",
+          "team": "Dev",
+          "location": "Seattle, WA",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Apollo Systems",
+          "url": "https://jobs.lever.co/palantir/832e4652-5088-4e5b-aeac-1e82ec3ebad4",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Apollo Systems",
+          "url": "https://jobs.lever.co/palantir/e47d4410-2542-47d8-b558-b5295fc28821",
+          "team": "Dev",
+          "location": "Seattle, WA",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Core Interfaces",
+          "url": "https://jobs.lever.co/palantir/3b4ae28e-c4f2-4654-83b4-64366bfe72fa",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Core Interfaces",
+          "url": "https://jobs.lever.co/palantir/cf76738e-3030-42fa-92ac-a9446df956fc",
+          "team": "Dev",
+          "location": "Palo Alto, CA",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Defense Applications",
+          "url": "https://jobs.lever.co/palantir/c288bb43-3c63-4557-bd96-600ef0d1b7a6",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Defense Applications",
+          "url": "https://jobs.lever.co/palantir/f7dbfdf1-0bb1-4c11-ac15-6a139cee3410",
+          "team": "Dev",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Developer Productivity",
+          "url": "https://jobs.lever.co/palantir/3c84af24-b7aa-483e-b2c3-e1d83494fe15",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Edge",
+          "url": "https://jobs.lever.co/palantir/397fb983-47b7-4a53-a7df-f080f43f7720",
+          "team": "Product Development",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Environment Platform",
+          "url": "https://jobs.lever.co/palantir/cd2423c6-da68-430c-8be5-0ae7eea36497",
+          "team": "Dev",
+          "location": "Seattle, WA",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Environment Platform",
+          "url": "https://jobs.lever.co/palantir/d5d83a8f-cb96-41cc-9612-c7224fbb2fbc",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Frontend Developer Productivity",
+          "url": "https://jobs.lever.co/palantir/71ed917e-850a-484b-9454-fa66bdf24540",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Hosted Model Infrastructure",
+          "url": "https://jobs.lever.co/palantir/4df4cca5-e361-498b-806d-05f21638c93a",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Hosted Model Infrastructure",
+          "url": "https://jobs.lever.co/palantir/7a9600be-cdcb-4311-bb5c-65b6939b5956",
+          "team": "Dev",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer - Hosted Model Infrastructure",
+          "url": "https://jobs.lever.co/palantir/e9aecd15-c7e9-4803-9928-fc0b67e70f5b",
+          "team": "Dev",
+          "location": "Palo Alto, CA",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, New Grad",
+          "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, New Grad",
+          "url": "https://jobs.lever.co/palantir/c34b424e-caf2-455a-b104-ae1096ccca29",
+          "team": "Dev",
+          "location": "Denver, CO",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, New Grad - Defense",
+          "url": "https://jobs.lever.co/palantir/0a838e66-1ab0-4fc4-b4d3-4671c0352278",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, New Grad - Defense",
+          "url": "https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79",
+          "team": "Dev",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, New Grad - Defense",
+          "url": "https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3",
+          "team": "Dev",
+          "location": "Palo Alto, CA",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, New Grad - Infrastructure",
+          "url": "https://jobs.lever.co/palantir/4abf26b4-795c-420a-bf22-1ab98db268b4",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, New Grad - Infrastructure",
+          "url": "https://jobs.lever.co/palantir/7d75bed5-45d8-4876-840a-2d92ea79c98d",
+          "team": "Dev",
+          "location": "Palo Alto, CA",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, New Grad - Production Infrastructure",
+          "url": "https://jobs.lever.co/palantir/15844944-fb69-4b57-9531-e988650b20c6",
+          "team": "Dev",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, New Grad - Production Infrastructure",
+          "url": "https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af",
+          "team": "Dev",
+          "location": "Seattle, WA",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, New Grad - Production Infrastructure",
+          "url": "https://jobs.lever.co/palantir/e1a6c138-98bf-45e2-97f7-2c70371cc38a",
+          "team": "Dev",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Systems Engineer - Business Systems",
+          "url": "https://jobs.lever.co/palantir/78dbb616-cf3c-489c-9eb2-e6fc9bd9993a",
+          "team": "Technical Operations",
+          "location": "New York, NY",
+          "source": "lever"
+        },
+        {
+          "title": "Systems Engineer - Business Systems",
+          "url": "https://jobs.lever.co/palantir/da426d8b-5963-42e5-9b19-84649cb519cc",
+          "team": "Technical Operations",
+          "location": "Washington, D.C.",
+          "source": "lever"
+        }
+      ],
+      "ats": "lever",
+      "slug": "palantir",
       "error": null
     },
     "Scale AI": {
       "listings": [
-        {
-          "title": "Applied AI Engineer, Enterprise GenAI",
-          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4514173005",
-          "team": "",
-          "location": "San Francisco, CA; New York, NY",
-          "source": "greenhouse"
-        },
         {
           "title": "Forward Deployed Engineer, GenAI ",
           "url": "https://job-boards.greenhouse.io/scaleai/jobs/4593571005",
@@ -854,10 +906,24 @@
           "source": "greenhouse"
         },
         {
+          "title": "Forward Deployed Software Engineer, Public Sector",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4481921005",
+          "team": "",
+          "location": "Colorado Springs, CO; Honolulu, HI; St. Louis, MO; Washington, DC",
+          "source": "greenhouse"
+        },
+        {
           "title": "Infrastructure Software Engineer, Enterprise GenAI",
           "url": "https://job-boards.greenhouse.io/scaleai/jobs/4665557005",
           "team": "",
           "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "IT Systems Engineer",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704551005",
+          "team": "",
+          "location": "Washington, DC",
           "source": "greenhouse"
         },
         {
@@ -875,45 +941,10 @@
           "source": "greenhouse"
         },
         {
-          "title": "Machine Learning Research Engineer, GenAI Applied ML",
-          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4490301005",
-          "team": "",
-          "location": "San Francisco, CA; New York, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Machine Learning Research Engineer - Robotics",
-          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4600908005",
-          "team": "",
-          "location": "San Francisco, CA",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Machine Learning Research Scientist / Engineer, Reasoning",
-          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4605596005",
-          "team": "",
-          "location": "San Francisco, CA; Seattle, WA; New York, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Machine Learning Research Scientist / Research Engineer, Post-Training",
-          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4528009005",
-          "team": "",
-          "location": "San Francisco, CA; Seattle, WA; New York, NY",
-          "source": "greenhouse"
-        },
-        {
           "title": "Machine Learning Systems Research Engineer, Agent Post-training - Enterprise GenAI",
           "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625341005",
           "team": "",
           "location": "San Francisco, CA; New York, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Mission Software Engineer, Public Sector",
-          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4481921005",
-          "team": "",
-          "location": "Boston, Massachusetts ; Honolulu, HI; San Diego, CA; San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
           "source": "greenhouse"
         },
         {
@@ -952,10 +983,10 @@
           "source": "greenhouse"
         },
         {
-          "title": "Software Engineer, AI Developer Tooling",
-          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4676936005",
+          "title": "Research Scientist, Safety Post Training",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4696595005",
           "team": "",
-          "location": "San Francisco, CA; Seattle, WA; New York, NY",
+          "location": "San Francisco, CA; New York, NY",
           "source": "greenhouse"
         },
         {
@@ -963,6 +994,13 @@
           "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673771005",
           "team": "",
           "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Data Infrastructure",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4708221005",
+          "team": "",
+          "location": "New York, NY; Washington, DC",
           "source": "greenhouse"
         },
         {
@@ -980,17 +1018,10 @@
           "source": "greenhouse"
         },
         {
-          "title": "Software Engineer, Gen AI",
-          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4591300005",
+          "title": "Software Engineer, Identity",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4710484005",
           "team": "",
           "location": "San Francisco, CA; New York, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer - New Grad",
-          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4605996005",
-          "team": "",
-          "location": "San Francisco, CA",
           "source": "greenhouse"
         },
         {
@@ -998,13 +1029,6 @@
           "url": "https://job-boards.greenhouse.io/scaleai/jobs/4594879005",
           "team": "",
           "location": "San Francisco, CA; New York, NY",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Public Sector",
-          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4302243005",
-          "team": "",
-          "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
           "source": "greenhouse"
         },
         {
@@ -1019,62 +1043,13 @@
       "slug": "scaleai",
       "error": null
     },
-    "MongoDB": {
-      "listings": [
-        {
-          "title": "Software Engineer 3",
-          "url": "https://www.mongodb.com/careers/job/?gh_jid=7779598",
-          "team": "",
-          "location": "New York City",
-          "source": "greenhouse"
-        },
-        {
-          "title": " Software Engineer 3, Atlas Data Federation Customer Experience",
-          "url": "https://www.mongodb.com/careers/job/?gh_jid=7551186",
-          "team": "",
-          "location": "New York City",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer 3, Search Systems Replication & Routing",
-          "url": "https://www.mongodb.com/careers/job/?gh_jid=7235322",
-          "team": "",
-          "location": "San Francisco",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Code Generation",
-          "url": "https://www.mongodb.com/careers/job/?gh_jid=7311666",
-          "team": "",
-          "location": "California; Colorado; Montana; Nevada; New Mexico; Oregon; Utah; Washington",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Networking & Observability",
-          "url": "https://www.mongodb.com/careers/job/?gh_jid=7672660",
-          "team": "",
-          "location": "New York City; United States",
-          "source": "greenhouse"
-        }
-      ],
-      "ats": "greenhouse",
-      "slug": "mongodb",
-      "error": null
-    },
     "Vercel": {
       "listings": [
         {
-          "title": "Forward Deployed Engineer, v0",
-          "url": "https://job-boards.greenhouse.io/vercel/jobs/5872425004",
+          "title": "Security Software Engineer, IAM",
+          "url": "https://job-boards.greenhouse.io/vercel/jobs/6093255004",
           "team": "",
           "location": "Remote - United States",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Agent",
-          "url": "https://job-boards.greenhouse.io/vercel/jobs/5704321004",
-          "team": "",
-          "location": "Hybrid - San Francisco, New York City",
           "source": "greenhouse"
         },
         {
@@ -1100,13 +1075,6 @@
         },
         {
           "title": "Software Engineer, Backend",
-          "url": "https://job-boards.greenhouse.io/vercel/jobs/5431123004",
-          "team": "",
-          "location": "Remote - United States",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, Backend",
           "url": "https://job-boards.greenhouse.io/vercel/jobs/5430088004",
           "team": "",
           "location": "Remote - United States",
@@ -1117,13 +1085,6 @@
           "url": "https://job-boards.greenhouse.io/vercel/jobs/5179639004",
           "team": "",
           "location": "Hybrid - San Francisco, New York City",
-          "source": "greenhouse"
-        },
-        {
-          "title": "Software Engineer, CDN Security",
-          "url": "https://job-boards.greenhouse.io/vercel/jobs/5473266004",
-          "team": "",
-          "location": "Remote - United States",
           "source": "greenhouse"
         },
         {
@@ -1148,10 +1109,10 @@
           "source": "greenhouse"
         },
         {
-          "title": "Software Engineer, Domains",
-          "url": "https://job-boards.greenhouse.io/vercel/jobs/5813134004",
+          "title": "Software Engineer, eve",
+          "url": "https://job-boards.greenhouse.io/vercel/jobs/6098390004",
           "team": "",
-          "location": "Remote - United States",
+          "location": "Hybrid - San Francisco, New York City",
           "source": "greenhouse"
         },
         {
@@ -1162,10 +1123,10 @@
           "source": "greenhouse"
         },
         {
-          "title": "Software Engineer, Lua",
-          "url": "https://job-boards.greenhouse.io/vercel/jobs/5661583004",
+          "title": "Software Engineer, Next.js",
+          "url": "https://job-boards.greenhouse.io/vercel/jobs/5993753004",
           "team": "",
-          "location": "Remote - United States",
+          "location": "Hybrid - San Francisco",
           "source": "greenhouse"
         },
         {
@@ -1180,11 +1141,2048 @@
       "slug": "vercel",
       "error": null
     },
-    "Google": {
+    "Cohere": {
       "listings": [],
       "ats": null,
       "slug": null,
       "error": "not found"
+    },
+    "Google DeepMind": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "xAI": {
+      "listings": [
+        {
+          "title": "AI Tutor - Software Engineering Specialist",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5063490007",
+          "team": "",
+          "location": "Remote",
+          "source": "greenhouse"
+        },
+        {
+          "title": "AI Tutor - Swedish",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5090265007",
+          "team": "",
+          "location": "Remote",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer - API",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5119111007",
+          "team": "",
+          "location": "Palo Alto, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Data Engineer",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5120884007",
+          "team": "",
+          "location": "Palo Alto, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Exceptional Software Engineer",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/4956028007",
+          "team": "",
+          "location": "Austin, TX; New York, NY; Palo Alto, CA; Seattle, WA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "IT Systems Engineer",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/4871633007",
+          "team": "",
+          "location": "Palo Alto, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Ads Product ",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5152408007",
+          "team": "",
+          "location": "Palo Alto, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer - Data",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5124616007",
+          "team": "",
+          "location": "Palo Alto, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer: Network (C++)",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5178709007",
+          "team": "",
+          "location": "Palo Alto, CA; Seattle, WA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer - Networking Software and Services",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/4946696007",
+          "team": "",
+          "location": "Palo Alto, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer\u2013 X Core Product",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5063929007",
+          "team": "",
+          "location": "Palo Alto, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "X Developer Platform \u2013 Forward Deployed Engineer, X API",
+          "url": "https://job-boards.greenhouse.io/xai/jobs/5136287007",
+          "team": "",
+          "location": "New York, NY; Palo Alto, CA",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "xai",
+      "error": null
+    },
+    "Figure AI": {
+      "listings": [],
+      "ats": "greenhouse",
+      "slug": "figureai",
+      "error": null
+    },
+    "MongoDB": {
+      "listings": [
+        {
+          "title": "Software Engineer 3",
+          "url": "https://www.mongodb.com/careers/job/?gh_jid=8015792",
+          "team": "",
+          "location": "New York City",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer 3, Atlas Search Systems",
+          "url": "https://www.mongodb.com/careers/job/?gh_jid=7523920",
+          "team": "",
+          "location": "San Francisco",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer 3, Atlas Vector Search",
+          "url": "https://www.mongodb.com/careers/job/?gh_jid=7523911",
+          "team": "",
+          "location": "San Francisco",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer 3, Query Integration",
+          "url": "https://www.mongodb.com/careers/job/?gh_jid=8010102",
+          "team": "",
+          "location": "Austin; New York; New York City; San Francisco; United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer 3 - Query Optimization",
+          "url": "https://www.mongodb.com/careers/job/?gh_jid=7816135",
+          "team": "",
+          "location": "Atlanta; Boston; New York City",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer 3, Search Systems Replication & Routing",
+          "url": "https://www.mongodb.com/careers/job/?gh_jid=7235322",
+          "team": "",
+          "location": "San Francisco",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Code Generation",
+          "url": "https://www.mongodb.com/careers/job/?gh_jid=7311666",
+          "team": "",
+          "location": "California; Colorado; Montana; Nevada; New Mexico; Oregon; Utah; Washington",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Data Migration",
+          "url": "https://www.mongodb.com/careers/job/?gh_jid=7523834",
+          "team": "",
+          "location": "California; Oregon; Washington",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Developer Productivity",
+          "url": "https://www.mongodb.com/careers/job/?gh_jid=7851388",
+          "team": "",
+          "location": "New York City",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "mongodb",
+      "error": null
+    },
+    "Tesla (AI / Optimus / infra)": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Elastic": {
+      "listings": [
+        {
+          "title": "Elastic AI Engineer",
+          "url": "https://jobs.elastic.co/jobs?gh_jid=7607148&gh_jid=7607148",
+          "team": "",
+          "location": "United States",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "elastic",
+      "error": null
+    },
+    "Datadog": {
+      "listings": [
+        {
+          "title": "AI Research Scientist - Datadog AI Research (DAIR)",
+          "url": "https://careers.datadoghq.com/detail/6572669/?gh_jid=6572669",
+          "team": "",
+          "location": "New York, New York, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Datadog for Startups - Forward Deployed Engineering Lead",
+          "url": "https://careers.datadoghq.com/detail/8003181/?gh_jid=8003181",
+          "team": "",
+          "location": "New York, New York, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer (Full Stack) - Compliance Engineering",
+          "url": "https://careers.datadoghq.com/detail/8041817/?gh_jid=8041817",
+          "team": "",
+          "location": "New York, New York, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Systems Engineer 3, Technical Solutions (US-East)",
+          "url": "https://careers.datadoghq.com/detail/7923520/?gh_jid=7923520",
+          "team": "",
+          "location": "Boston, Massachusetts, USA; New York, New York, USA",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "datadog",
+      "error": null
+    },
+    "Replicate": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "GitLab": {
+      "listings": [
+        {
+          "title": "AI Engineer",
+          "url": "https://job-boards.greenhouse.io/gitlab/jobs/8565469002",
+          "team": "",
+          "location": "Remote, US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer (Ruby), AI Engineering: Duo Agent Platform Tools",
+          "url": "https://job-boards.greenhouse.io/gitlab/jobs/8605283002",
+          "team": "",
+          "location": "Remote, Canada; Remote, United Kingdom",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Forward Deployed Engineer - Germany",
+          "url": "https://job-boards.greenhouse.io/gitlab/jobs/8522408002",
+          "team": "",
+          "location": "Remote, Austria; Remote, Germany; Remote, Switzerland",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Forward Deployed Engineer - META",
+          "url": "https://job-boards.greenhouse.io/gitlab/jobs/8524783002",
+          "team": "",
+          "location": "Remote, United Arab Emirates",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Forward Deployed Engineer - UK",
+          "url": "https://job-boards.greenhouse.io/gitlab/jobs/8522265002",
+          "team": "",
+          "location": "Remote, United Kingdom",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Intermediate Backend Engineer (C), Tenant Scale: Git ",
+          "url": "https://job-boards.greenhouse.io/gitlab/jobs/8497793002",
+          "team": "",
+          "location": "Remote, India",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "gitlab",
+      "error": null
+    },
+    "GitHub": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "LinkedIn": {
+      "listings": [],
+      "ats": "greenhouse",
+      "slug": "linkedin",
+      "error": null
+    },
+    "Confluent": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Anysphere (Cursor)": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Hugging Face": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Redis": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Weaviate": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Stripe": {
+      "listings": [
+        {
+          "title": "Backend Engineer, AI Security",
+          "url": "https://stripe.com/jobs/search?gh_jid=7826765",
+          "team": "",
+          "location": "New York, San Francisco, Seattle, or Remote (US/Canada)",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Billing/Tax",
+          "url": "https://stripe.com/jobs/search?gh_jid=7217048",
+          "team": "",
+          "location": "N/A",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Core Tech, Canada",
+          "url": "https://stripe.com/jobs/search?gh_jid=6567253",
+          "team": "",
+          "location": "Toronto, CAN-Remote",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Core Technology",
+          "url": "https://stripe.com/jobs/search?gh_jid=6042172",
+          "team": "",
+          "location": "US-Remote, Chicago, Seattle, San Francisco",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Developer SDKs",
+          "url": "https://stripe.com/jobs/search?gh_jid=7557899",
+          "team": "",
+          "location": "N/A",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Expansion",
+          "url": "https://stripe.com/jobs/search?gh_jid=7775622",
+          "team": "",
+          "location": "N/A",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Financial Connections",
+          "url": "https://stripe.com/jobs/search?gh_jid=8030859",
+          "team": "",
+          "location": "Toronto, Remote in Canada",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Forward Deployed Engineering",
+          "url": "https://stripe.com/jobs/search?gh_jid=7249744",
+          "team": "",
+          "location": "N/A",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Payments and Risk",
+          "url": "https://stripe.com/jobs/search?gh_jid=7232592",
+          "team": "",
+          "location": "US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Payments and Risk",
+          "url": "https://stripe.com/jobs/search?gh_jid=6163230",
+          "team": "",
+          "location": "US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Payments Experiences",
+          "url": "https://stripe.com/jobs/search?gh_jid=7895287",
+          "team": "",
+          "location": "N/A",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Engineer, Privy",
+          "url": "https://stripe.com/jobs/search?gh_jid=7235875",
+          "team": "",
+          "location": "NYC-Privy",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Forward Deployed Engineer, Privy",
+          "url": "https://stripe.com/jobs/search?gh_jid=7230452",
+          "team": "",
+          "location": "New York Privy HQ",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Infrastructure Engineer, Privy",
+          "url": "https://stripe.com/jobs/search?gh_jid=7462961",
+          "team": "",
+          "location": "New York",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Capital Underwriting",
+          "url": "https://stripe.com/jobs/search?gh_jid=7952048",
+          "team": "",
+          "location": "US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Payment Intelligence",
+          "url": "https://stripe.com/jobs/search?gh_jid=7983456",
+          "team": "",
+          "location": "Seattle",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://stripe.com/jobs/search?gh_jid=7922832",
+          "team": "",
+          "location": "Seattle, WA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://stripe.com/jobs/search?gh_jid=7926966",
+          "team": "",
+          "location": "New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://stripe.com/jobs/search?gh_jid=8009143",
+          "team": "",
+          "location": "New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://stripe.com/jobs/search?gh_jid=7991636",
+          "team": "",
+          "location": "Seattle ",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Balance Abstraction",
+          "url": "https://stripe.com/jobs/search?gh_jid=7908923",
+          "team": "",
+          "location": "Seattle, WA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Bridge",
+          "url": "https://stripe.com/jobs/search?gh_jid=7277110",
+          "team": "",
+          "location": "San Francisco, NY, Seattle",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Data Orchestration",
+          "url": "https://stripe.com/jobs/search?gh_jid=7230670",
+          "team": "",
+          "location": "N/A",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Product Security Data Platforms",
+          "url": "https://stripe.com/jobs/search?gh_jid=7761694",
+          "team": "",
+          "location": "Seattle",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Product Security Data Platforms",
+          "url": "https://stripe.com/jobs/search?gh_jid=8039800",
+          "team": "",
+          "location": "Seattle",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Secrets Infrastructure",
+          "url": "https://stripe.com/jobs/search?gh_jid=7396679",
+          "team": "",
+          "location": "na",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Security Analytics Infrastructure",
+          "url": "https://stripe.com/jobs/search?gh_jid=7826761",
+          "team": "",
+          "location": "US - Remote",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer - Smart Contract, Bridge",
+          "url": "https://stripe.com/jobs/search?gh_jid=7507904",
+          "team": "",
+          "location": "San Francisco or New York",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "stripe",
+      "error": null
+    },
+    "Modal": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Pinecone": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Figma": {
+      "listings": [
+        {
+          "title": "AI Applied Scientist",
+          "url": "https://boards.greenhouse.io/figma/jobs/5707966004?gh_jid=5707966004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Data Engineer",
+          "url": "https://boards.greenhouse.io/figma/jobs/5220003004?gh_jid=5220003004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Data Platform Engineer",
+          "url": "https://boards.greenhouse.io/figma/jobs/5840332004?gh_jid=5840332004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Early Career Recruiter",
+          "url": "https://boards.greenhouse.io/figma/jobs/6099199004?gh_jid=6099199004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Inside Sales Representative - Early Career (2026)",
+          "url": "https://boards.greenhouse.io/figma/jobs/5977327004?gh_jid=5977327004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Sales AI Engineer",
+          "url": "https://boards.greenhouse.io/figma/jobs/5991176004?gh_jid=5991176004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, AI Platforms",
+          "url": "https://boards.greenhouse.io/figma/jobs/5691886004?gh_jid=5691886004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, AI Product",
+          "url": "https://boards.greenhouse.io/figma/jobs/5551730004?gh_jid=5551730004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, C++",
+          "url": "https://boards.greenhouse.io/figma/jobs/5552530004?gh_jid=5552530004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Code Platform",
+          "url": "https://boards.greenhouse.io/figma/jobs/5759501004?gh_jid=5759501004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Data Infrastructure",
+          "url": "https://boards.greenhouse.io/figma/jobs/5551686004?gh_jid=5551686004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Developer Experience",
+          "url": "https://boards.greenhouse.io/figma/jobs/5790627004?gh_jid=5790627004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Distributed Systems",
+          "url": "https://boards.greenhouse.io/figma/jobs/5552549004?gh_jid=5552549004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Full Stack",
+          "url": "https://boards.greenhouse.io/figma/jobs/5691911004?gh_jid=5691911004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Graphics & Media",
+          "url": "https://boards.greenhouse.io/figma/jobs/5552522004?gh_jid=5552522004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Growth & Monetization",
+          "url": "https://boards.greenhouse.io/figma/jobs/5552560004?gh_jid=5552560004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, iOS",
+          "url": "https://boards.greenhouse.io/figma/jobs/6100023004?gh_jid=6100023004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Machine Learning",
+          "url": "https://boards.greenhouse.io/figma/jobs/5551532004?gh_jid=5551532004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Production Engineering",
+          "url": "https://boards.greenhouse.io/figma/jobs/5551649004?gh_jid=5551649004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Traffic",
+          "url": "https://boards.greenhouse.io/figma/jobs/6102379004?gh_jid=6102379004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Support AI Engineer",
+          "url": "https://boards.greenhouse.io/figma/jobs/5802956004?gh_jid=5802956004",
+          "team": "",
+          "location": "San Francisco, CA \u2022 New York, NY \u2022 United States",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "figma",
+      "error": null
+    },
+    "Dropbox": {
+      "listings": [
+        {
+          "title": "Data Engineer",
+          "url": "https://jobs.dropbox.com/listing/7739553?gh_jid=7739553",
+          "team": "",
+          "location": "Remote - Mexico",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Frontend Product Software Engineer, Design Systems",
+          "url": "https://jobs.dropbox.com/listing/7862086?gh_jid=7862086",
+          "team": "",
+          "location": "Remote - Mexico",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Infrastructure Software Engineer",
+          "url": "https://jobs.dropbox.com/listing/6330377?gh_jid=6330377",
+          "team": "",
+          "location": "Remote - Poland",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Infrastructure Software Engineer, Release Systems",
+          "url": "https://jobs.dropbox.com/listing/8031442?gh_jid=8031442",
+          "team": "",
+          "location": "Remote - Mexico",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "dropbox",
+      "error": null
+    },
+    "Glean": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Twilio / Segment": {
+      "listings": [
+        {
+          "title": "Frontend Software Engineer ",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7946608",
+          "team": "",
+          "location": "Remote - United Kingdom",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7996774",
+          "team": "",
+          "location": "Remote - Ireland",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7059734",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/8007455",
+          "team": "",
+          "location": "Remote - Spain",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7647708",
+          "team": "",
+          "location": "Remote - Estonia",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7605743",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer ",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7785202",
+          "team": "",
+          "location": "Remote - Ireland",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer (L1)",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7681338",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer (L2)",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7188174",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, (L2) CDP",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7602727",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer (L2) Segment Team",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7767263",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer L3",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/8009057",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer (L3)",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7926883",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer (L3) Data Substrate",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7954715",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer - Video",
+          "url": "https://job-boards.greenhouse.io/twilio/jobs/7661919",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "twilio",
+      "error": null
+    },
+    "Mistral AI": {
+      "listings": [
+        {
+          "title": "Applied AI, Forward Deployed Machine Learning Engineer - Palo Alto",
+          "url": "https://jobs.lever.co/mistral/0b476d3a-5f0c-4dda-9a5e-bd5ed8515328",
+          "team": "Solutions",
+          "location": "Palo Alto",
+          "source": "lever"
+        },
+        {
+          "title": "Applied AI, Technical Lead - Forward Deployed AI Engineer",
+          "url": "https://jobs.lever.co/mistral/ebfdc0da-13fd-4ae9-9861-bedb5ff493ea",
+          "team": "Solutions",
+          "location": "New York",
+          "source": "lever"
+        },
+        {
+          "title": "Research Engineer, Data Infrastructure",
+          "url": "https://jobs.lever.co/mistral/37f53ee5-dd88-43e3-be6a-70e3db159c8f",
+          "team": "Research",
+          "location": "Palo Alto",
+          "source": "lever"
+        },
+        {
+          "title": "Research Engineer, Machine Learning",
+          "url": "https://jobs.lever.co/mistral/bada0014-0f32-4370-b55f-81c5595c7339",
+          "team": "Research",
+          "location": "Palo Alto",
+          "source": "lever"
+        },
+        {
+          "title": "Software Engineer, Backend (New-York)",
+          "url": "https://jobs.lever.co/mistral/f2e8ba75-bf5a-4976-bb96-c5d3e0f99366",
+          "team": "Engineering & Infra",
+          "location": "New York",
+          "source": "lever"
+        }
+      ],
+      "ats": "lever",
+      "slug": "mistral",
+      "error": null
+    },
+    "Samsara": {
+      "listings": [
+        {
+          "title": "AI Engineer",
+          "url": "https://www.samsara.com/company/careers/roles/7491153?gh_jid=7491153",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "AI Engineer",
+          "url": "https://www.samsara.com/company/careers/roles/7589442?gh_jid=7589442",
+          "team": "",
+          "location": "Remote - Canada",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Data Engineer II",
+          "url": "https://www.samsara.com/company/careers/roles/7859406?gh_jid=7859406",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Lead Machine Learning Engineer - ML Infrastructure",
+          "url": "https://www.samsara.com/company/careers/roles/7746586?gh_jid=7746586",
+          "team": "",
+          "location": "Remote - Canada",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Lead Machine Learning Engineer - ML Infrastructure ",
+          "url": "https://www.samsara.com/company/careers/roles/7721193?gh_jid=7721193",
+          "team": "",
+          "location": "Remote - US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "People Analytics AI Engineer",
+          "url": "https://www.samsara.com/company/careers/roles/7858719?gh_jid=7858719",
+          "team": "",
+          "location": "Remote - Seattle",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer II, AI Platform",
+          "url": "https://www.samsara.com/company/careers/roles/7619925?gh_jid=7619925",
+          "team": "",
+          "location": "Remote - CA",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "samsara",
+      "error": null
+    },
+    "Notion": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Oracle Cloud Infrastructure": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Perplexity": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Discord": {
+      "listings": [
+        {
+          "title": "Software Engineer- Database Infrastructure",
+          "url": "https://job-boards.greenhouse.io/discord/jobs/8487457002",
+          "team": "",
+          "location": "San Francisco Bay Area ",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Data Platform",
+          "url": "https://job-boards.greenhouse.io/discord/jobs/8396927002",
+          "team": "",
+          "location": "San Francisco Bay Area",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Developer Success",
+          "url": "https://job-boards.greenhouse.io/discord/jobs/8609250002",
+          "team": "",
+          "location": "San Francisco Bay Area",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Distributed Systems",
+          "url": "https://job-boards.greenhouse.io/discord/jobs/8545663002",
+          "team": "",
+          "location": "San Francisco Bay Area",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "discord",
+      "error": null
+    },
+    "Shopify": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Cockroach Labs": {
+      "listings": [
+        {
+          "title": "Software Engineer (Backend), GTM Tooling",
+          "url": "https://www.cockroachlabs.com/careers/job/?gh_jid=7874104",
+          "team": "",
+          "location": "New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer (Full-Stack), GTM Tooling",
+          "url": "https://www.cockroachlabs.com/careers/job/?gh_jid=7967509",
+          "team": "",
+          "location": "New York, NY",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "cockroachlabs",
+      "error": null
+    },
+    "DoorDash": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Uber": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "PlanetScale": {
+      "listings": [
+        {
+          "title": "Forward Deployed Engineer, GenAI ",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4593571005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Forward Deployed Software Engineer, Public Sector",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4481921005",
+          "team": "",
+          "location": "Colorado Springs, CO; Honolulu, HI; St. Louis, MO; Washington, DC",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Infrastructure Software Engineer, Enterprise GenAI",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4665557005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "IT Systems Engineer",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704551005",
+          "team": "",
+          "location": "Washington, DC",
+          "source": "greenhouse"
+        },
+        {
+          "title": " Machine Learning Research Engineer, Agent Data Foundation - Enterprise GenAI",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625345005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Research Engineer, Agents - Enterprise GenAI",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625344005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Systems Research Engineer, Agent Post-training - Enterprise GenAI",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625341005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "ML Research Engineer, ML Systems",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4534631005",
+          "team": "",
+          "location": "San Francisco, CA; Seattle, WA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "ML Systems Engineer, Robotics",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4663053005",
+          "team": "",
+          "location": "San Francisco, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Scientist, Agent Robustness",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4675684005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Scientist, AI Controls and Monitoring",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4675694005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Scientist, Frontier Risk Evaluations",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4677657005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Scientist, Safety Post Training",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4696595005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, ARC Team",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4673771005",
+          "team": "",
+          "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Data Infrastructure",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4708221005",
+          "team": "",
+          "location": "New York, NY; Washington, DC",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Enterprise AI",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4513943005",
+          "team": "",
+          "location": "New York, NY; San Francisco, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Frontier AI Infrastructure",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4363623005",
+          "team": "",
+          "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Identity",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4710484005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Platform",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4594879005",
+          "team": "",
+          "location": "San Francisco, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Robotics & Autonomous Systems",
+          "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618065005",
+          "team": "",
+          "location": "San Francisco, CA",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "scaleai",
+      "error": null
+    },
+    "SingleStore": {
+      "listings": [
+        {
+          "title": "Software Engineer | Cloud Foundations",
+          "url": "https://job-boards.greenhouse.io/singlestore/jobs/7790325",
+          "team": "",
+          "location": "India (Remote)",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "singlestore",
+      "error": null
+    },
+    "Coder": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Box": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Together AI": {
+      "listings": [
+        {
+          "title": "AI Infrastructure Engineer",
+          "url": "https://job-boards.greenhouse.io/togetherai/jobs/5138540007",
+          "team": "",
+          "location": "San Francisco",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Backend Software Engineer \u2014 Data Platform & AI Data Products",
+          "url": "https://job-boards.greenhouse.io/togetherai/jobs/5064263007",
+          "team": "",
+          "location": "San Francisco",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer - Inference",
+          "url": "https://job-boards.greenhouse.io/togetherai/jobs/4385540007",
+          "team": "",
+          "location": "San Francisco ",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Platform Engineer, Model Shaping",
+          "url": "https://job-boards.greenhouse.io/togetherai/jobs/4790243007",
+          "team": "",
+          "location": "San Francisco ",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Engineer, Core ML",
+          "url": "https://job-boards.greenhouse.io/togetherai/jobs/4384627007",
+          "team": "",
+          "location": "San Francisco",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Engineer, Frontier Speculative Decoding",
+          "url": "https://job-boards.greenhouse.io/togetherai/jobs/4987660007",
+          "team": "",
+          "location": "San Francisco, New York City ",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Systems Research Engineer, GPU Programming",
+          "url": "https://job-boards.greenhouse.io/togetherai/jobs/4188119007",
+          "team": "",
+          "location": "San Francisco",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "togetherai",
+      "error": null
+    },
+    "HashiCorp": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Snowplow": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Cerebras": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Waymo": {
+      "listings": [
+        {
+          "title": "Analysis Infra SWE ",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7438172",
+          "team": "",
+          "location": "Mountain View, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Automotive HVAC Systems Engineer",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=8042365",
+          "team": "",
+          "location": "Mountain View, Ca, USA ; Novi, Mi, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Foundation Model Data, Software Engineer",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=8031883",
+          "team": "",
+          "location": "Mountain View, CA, USA; San Francisco, CA, USA; Kirkland, WA, USA; New York City, NY, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Front-End Software Engineer, Simulation",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7855418",
+          "team": "",
+          "location": "MountainView, CA, United States ",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Depot Automation",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7852501",
+          "team": "",
+          "location": "Mountain View, CA, US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Driver Understanding and Evaluation",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7455853",
+          "team": "",
+          "location": "Mountain View, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer (Infra), Driver Understanding and Evaluation",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7819946",
+          "team": "",
+          "location": "Mountain View, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer - Mapping",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7429791",
+          "team": "",
+          "location": "Mountain View, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, ML Flywheel",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7426598",
+          "team": "",
+          "location": "Mountain View, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, ML Resources",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7424806",
+          "team": "",
+          "location": "Mountain View, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Model Optimization",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7446322",
+          "team": "",
+          "location": "Mountain View, California, United States; San Francisco, California, United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7488508",
+          "team": "",
+          "location": "Mountain View, CA USA;  San Francisco, CA USA;",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Prediction & Planning",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=6506689",
+          "team": "",
+          "location": "Mountain View, CA, USA; San Francisco, CA, USA; New York City, NY, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Runtime & Optimization",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=6506008",
+          "team": "",
+          "location": "Mountain View, California, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Simulation Realism",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=6499165",
+          "team": "",
+          "location": "Mountain View, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Simulation Realism ",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=6688617",
+          "team": "",
+          "location": "Mountain View, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Perception Machine Learning Engineer",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7446279",
+          "team": "",
+          "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Scientist, Prediction & Planning ",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7309064",
+          "team": "",
+          "location": "Mountain View, CA USA; New York, NY USA; San Francisco, CA USA;",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Research Scientist, RL for Autonomous Planning & World Modeling  ",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7469425",
+          "team": "",
+          "location": "Mountain View, CA, USA; San Francisco, CA, USA; Kirkland, WA, USA; New York City, NY, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer Backend - Simulation",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7307289",
+          "team": "",
+          "location": "Mountain View",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Booking",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7905695",
+          "team": "",
+          "location": "Mountain View, CA, United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Driving Behaviors",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7351058",
+          "team": "",
+          "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Fleet Monitoring",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7939542",
+          "team": "",
+          "location": "San Francisco, CA; Mountain  View, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Fleet Optimization",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7901963",
+          "team": "",
+          "location": "Mountain View, CA, United States; San Francisco, CA, United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Fleet Orchestration Core",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7901957",
+          "team": "",
+          "location": "Mountain View, CA, United States; San Francisco, CA, United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, GPU",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7554830",
+          "team": "",
+          "location": "Mountain View, CA, USA; New York, NY, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Logs Infrastructure",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7901924",
+          "team": "",
+          "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer -  Marketplace Experimentation Platform",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7905680",
+          "team": "",
+          "location": "Mountain View, CA, United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Marketplace Pricing",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7905643",
+          "team": "",
+          "location": "MountainView, CA, United States  ",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Multiverse",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7531397",
+          "team": "",
+          "location": "San Francisco, CA, USA; Mountain View, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Onboard Reliability Infra",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7461072",
+          "team": "",
+          "location": "Mountain View, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Operational/ Process Efficiency ",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7926526",
+          "team": "",
+          "location": "Mountain View, CA, US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Perception Scaling Evaluation",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7449712",
+          "team": "",
+          "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": " Software Engineer, Planner (L4)",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=8039191",
+          "team": "",
+          "location": "Mountain View, California, USA; San Francisco, California; USA; Pittsburg Pennsylvania, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Planner Vehicle Dynamics",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7141380",
+          "team": "",
+          "location": "Mountain View, California",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Quantitative Evaluations",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7466534",
+          "team": "",
+          "location": "Mountain View, CA, USA; San Francisco, CA, USA ",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Simulator Evaluation",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=6562547",
+          "team": "",
+          "location": "Mountain View, California, United States; San Francisco, California, United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Statistical Evaluation and Sampling",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7543520",
+          "team": "",
+          "location": "Mountain View, CA, USA; San Francisco, CA, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Trip Platform",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7905678",
+          "team": "",
+          "location": "Mountain View, CA, United States ",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Vehicle Platforms C++",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7429873",
+          "team": "",
+          "location": "Mountain View, CA, US",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Sr Software Engineer, Android Automotive",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7438665",
+          "team": "",
+          "location": "Mountain View, California, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Sr Software Engineer, Telematics",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7438645",
+          "team": "",
+          "location": "Mountain View, California, USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Systems Engineer, Perception",
+          "url": "https://careers.withwaymo.com/jobs?gh_jid=7367785",
+          "team": "",
+          "location": "Mountain View, CA, US; San Francisco, CA, US",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "waymo",
+      "error": null
+    },
+    "Airbnb": {
+      "listings": [
+        {
+          "title": "AI Engineer, Community Support Engineering",
+          "url": "https://careers.airbnb.com/positions/7946288?gh_jid=7946288",
+          "team": "",
+          "location": "China - Remote",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Android Software Engineer, Quality Platform",
+          "url": "https://careers.airbnb.com/positions/7744247?gh_jid=7744247",
+          "team": "",
+          "location": "Remote, Brazil",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Audiovisual Infrastructure Engineer",
+          "url": "https://careers.airbnb.com/positions/7917632?gh_jid=7917632",
+          "team": "",
+          "location": "San Francisco, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Community Support Engineering",
+          "url": "https://careers.airbnb.com/positions/8024267?gh_jid=8024267",
+          "team": "",
+          "location": "San Francisco, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Customer Support Engineering",
+          "url": "https://careers.airbnb.com/positions/7826337?gh_jid=7826337",
+          "team": "",
+          "location": "Remote-USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer, Relevance and Personalization",
+          "url": "https://careers.airbnb.com/positions/7708224?gh_jid=7708224",
+          "team": "",
+          "location": "United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Cloud Networking",
+          "url": "https://careers.airbnb.com/positions/8037090?gh_jid=8037090",
+          "team": "",
+          "location": "Remote - USA or Canada",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "airbnb",
+      "error": null
+    },
+    "Neon": {
+      "listings": [],
+      "ats": "lever",
+      "slug": "neon",
+      "error": null
+    },
+    "Roblox": {
+      "listings": [
+        {
+          "title": "Software Engineer, Data Engineering",
+          "url": "https://careers.roblox.com/jobs/8025021?gh_jid=8025021",
+          "team": "",
+          "location": "San Mateo, CA, United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": " Software Engineer, Storage",
+          "url": "https://careers.roblox.com/jobs/7991654?gh_jid=7991654",
+          "team": "",
+          "location": "San Mateo, CA, United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, User Co-Experience",
+          "url": "https://careers.roblox.com/jobs/7711780?gh_jid=7711780",
+          "team": "",
+          "location": "San Mateo, CA, United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, User Sharing",
+          "url": "https://careers.roblox.com/jobs/7767204?gh_jid=7767204",
+          "team": "",
+          "location": "San Mateo, CA, United States",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Systems Software Engineer - Game Engine Network (C++)",
+          "url": "https://careers.roblox.com/jobs/7561739?gh_jid=7561739",
+          "team": "",
+          "location": "San Mateo, CA, United States",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "roblox",
+      "error": null
+    },
+    "Runway": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "ServiceNow": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Cisco / Splunk": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Adobe": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Okta": {
+      "listings": [],
+      "ats": "greenhouse",
+      "slug": "okta",
+      "error": null
+    },
+    "Atlassian": {
+      "listings": [],
+      "ats": "lever",
+      "slug": "atlassian",
+      "error": null
+    },
+    "VMware / Broadcom": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "AMD": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "HubSpot": {
+      "listings": [],
+      "ats": "greenhouse",
+      "slug": "hubspot",
+      "error": null
+    },
+    "Intel": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Qualcomm": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Salesforce": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "SAP": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Expedia": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Bloomberg": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Coinbase": {
+      "listings": [
+        {
+          "title": "Software Engineer",
+          "url": "https://www.coinbase.com/careers/positions/8022068?gh_jid=8022068",
+          "team": "",
+          "location": "Remote - USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, EAA Integrations",
+          "url": "https://www.coinbase.com/careers/positions/7558051?gh_jid=7558051",
+          "team": "",
+          "location": "Remote - India",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Enterprise Apps",
+          "url": "https://www.coinbase.com/careers/positions/7958901?gh_jid=7958901",
+          "team": "",
+          "location": "Remote - USA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Enterprise Apps",
+          "url": "https://www.coinbase.com/careers/positions/8024814?gh_jid=8024814",
+          "team": "",
+          "location": "Remote - Brazil",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer - Salesforce Platform (EAA)",
+          "url": "https://www.coinbase.com/careers/positions/7652048?gh_jid=7652048",
+          "team": "",
+          "location": "Remote - USA",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "coinbase",
+      "error": null
+    },
+    "Robinhood": {
+      "listings": [
+        {
+          "title": "Customer Experience Associate (New Grad)",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/8024530?t=gh_src=&gh_jid=8024530",
+          "team": "",
+          "location": "Denver, CO; Westlake, TX",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Full Stack Software Engineer, Credit Cards & Banking",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/8008723?t=gh_src=&gh_jid=8008723",
+          "team": "",
+          "location": "Bellevue, WA; Menlo Park, CA; New York, NY",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Machine Learning Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7960680?t=gh_src=&gh_jid=7960680",
+          "team": "",
+          "location": "Bellevue, WA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975557?t=gh_src=&gh_jid=7975557",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975480?t=gh_src=&gh_jid=7975480",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975507?t=gh_src=&gh_jid=7975507",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975516?t=gh_src=&gh_jid=7975516",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975526?t=gh_src=&gh_jid=7975526",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975529?t=gh_src=&gh_jid=7975529",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975530?t=gh_src=&gh_jid=7975530",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975531?t=gh_src=&gh_jid=7975531",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7960734?t=gh_src=&gh_jid=7960734",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975549?t=gh_src=&gh_jid=7975549",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975550?t=gh_src=&gh_jid=7975550",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975558?t=gh_src=&gh_jid=7975558",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Agentic AI",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7975477?t=gh_src=&gh_jid=7975477",
+          "team": "",
+          "location": "Bellevue, WA",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Backend",
+          "url": "https://boards.greenhouse.io/robinhood/jobs/7263592?t=gh_src=&gh_jid=7263592",
+          "team": "",
+          "location": "Menlo Park, CA",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "robinhood",
+      "error": null
+    },
+    "Block / Square": {
+      "listings": [
+        {
+          "title": "Legal Systems Engineer",
+          "url": "http://block.xyz/careers/jobs/5195924008?gh_jid=5195924008",
+          "team": "",
+          "location": "Bay Area, CA, United States of America",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Cash App - Lending Products",
+          "url": "http://block.xyz/careers/jobs/5196173008?gh_jid=5196173008",
+          "team": "",
+          "location": "Bay Area, CA, United States of America",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Cash App - Lending Products",
+          "url": "http://block.xyz/careers/jobs/5201726008?gh_jid=5201726008",
+          "team": "",
+          "location": "New York, NY, United States of America",
+          "source": "greenhouse"
+        },
+        {
+          "title": "Software Engineer, Finance Applications",
+          "url": "http://block.xyz/careers/jobs/4888459008?gh_jid=4888459008",
+          "team": "",
+          "location": "Bay Area, CA, United States of America",
+          "source": "greenhouse"
+        }
+      ],
+      "ats": "greenhouse",
+      "slug": "block",
+      "error": null
+    },
+    "Zoom": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "IBM Research / watsonx": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Intuit": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Goldman Sachs": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Capital One": {
+      "listings": [],
+      "ats": "lever",
+      "slug": "capital",
+      "error": null
+    },
+    "Red Hat": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "JPMorgan AI / platform orgs": {
+      "listings": [],
+      "ats": null,
+      "slug": null,
+      "error": "not found"
+    },
+    "Netflix": {
+      "listings": [],
+      "ats": "lever",
+      "slug": "netflix",
+      "error": null
     }
   }
 }

@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local config / secrets
+config.ini
+.env
+
+# Generated local artifacts
+data/assessments/
+open_tracker_tui.command
+
+# Resume generation outputs (local/personal)
+generated/
+*.aux
+*.log
+*.out
+
+# mac rescue safety
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+node_modules/
+.venv/
+.venv*/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+.cache/
+
+# mac rescue safety
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+node_modules/
+.venv/
+.venv*/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+.cache/
+# Local generated tracker scratch
+prompts/last_prompt.json
+data/tmp_scan_results.json

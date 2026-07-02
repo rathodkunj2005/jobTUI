@@ -15,6 +15,7 @@ Commands:
   last        Show last generated outreach message
   tui         Launch interactive curses TUI
   seed-links  Seed canonical careers URLs for companies with blank Job URL
+  resume      Generate a personalized resume PDF for a company (via LLM)
 """
 import argparse
 import sys
@@ -359,6 +360,70 @@ def cmd_seed_links(args) -> None:
             print(dim(f"    {co}"))
 
 
+def cmd_resume(args) -> None:
+    apps = data.load()
+    app = data.find(apps, args.company)
+    if not app:
+        print(red(f"Company not found: '{args.company}'"))
+        sys.exit(1)
+
+    import resume_gen
+    cfg = cfg_module.load()
+
+    print(f"Generating resume for {bold(app.company)} (variant {app.resume or 'A'})…")
+    if app.job_url:
+        print(dim(f"  Fetching job description from: {app.job_url[:70]}"))
+    else:
+        print(dim("  No job URL set — tailoring by role family only."))
+
+    try:
+        pdf_path = resume_gen.generate_resume(app, cfg)
+    except Exception as exc:
+        print(red(f"Error: {exc}"))
+        sys.exit(1)
+
+    print(green(f"PDF: {pdf_path}"))
+    if not args.no_open:
+        resume_gen.open_pdf(pdf_path)
+
+
+def cmd_assess(args) -> None:
+    apps = data.load()
+    app = data.find(apps, args.company)
+    if not app:
+        print(red(f"Company not found: '{args.company}'"))
+        sys.exit(1)
+
+    import resume_fit
+    resume_path = args.resume if args.resume else None
+    try:
+        report = resume_fit.assess_resume_for_app(app, resume_path=resume_path)
+        out = resume_fit.save_report(report)
+    except Exception as exc:
+        print(red(f"Error: {exc}"))
+        sys.exit(1)
+
+    print(report.to_markdown())
+    print(green(f"Saved: {out}"))
+
+
+def cmd_people(args) -> None:
+    apps = data.load()
+    app = data.find(apps, args.company)
+    if not app:
+        print(red(f"Company not found: '{args.company}'"))
+        sys.exit(1)
+
+    import subprocess
+    import people_finder
+    searches = people_finder.build_searches(app)
+    print(people_finder.format_searches(app))
+    if args.open:
+        idx = max(1, min(args.open, len(searches))) - 1
+        subprocess.run(["open", searches[idx].url], check=False)
+        print(green(f"Opened: {searches[idx].label}"))
+
+
 def cmd_last(args) -> None:
     prompt = outreach.load_last_prompt()
     if not prompt:
@@ -453,6 +518,21 @@ def build_parser() -> argparse.ArgumentParser:
     tp = sub.add_parser("tamagotchi", help="Show Appli, your job search health companion")
     tp.add_argument("--once", action="store_true", help="Print once and exit (no animation)")
 
+    # resume
+    rsp = sub.add_parser("resume", help="Generate a personalized resume PDF for a company")
+    rsp.add_argument("company", help="Company name (substring match)")
+    rsp.add_argument("--no-open", action="store_true", help="Don't open the PDF after generation")
+
+    # assess
+    ap = sub.add_parser("assess", help="Assess whether the current/latest resume can plausibly get an interview")
+    ap.add_argument("company", help="Company name (substring match)")
+    ap.add_argument("--resume", metavar="PATH", help="Resume PDF/TXT/MD/TEX path. Defaults to newest resume PDF under Kunj_Rathod_Resume")
+
+    # people
+    pp = sub.add_parser("people", help="Build safe LinkedIn people-search links for a tracked company")
+    pp.add_argument("company", help="Company name (substring match)")
+    pp.add_argument("--open", type=int, choices=[1, 2, 3, 4], metavar="N", help="Open one of the generated LinkedIn searches")
+
     # listings
     llp = sub.add_parser("listings", help="Fetch / show real open job listings for tracked companies")
     llp.add_argument("--list", action="store_true", help="Show cached listings (no fetch)")
@@ -480,6 +560,9 @@ def main() -> None:
         "seed-links": cmd_seed_links,
         "tamagotchi": cmd_tamagotchi,
         "listings": cmd_listings,
+        "resume": cmd_resume,
+        "assess": cmd_assess,
+        "people": cmd_people,
     }
     dispatch[args.command](args)
 
